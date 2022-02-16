@@ -4,7 +4,22 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{ float dis,amount;
+  printf("Distance -> ");
+  scanf("%f",&dis);
+
+  if(dis > 30)
+  {
+    amount = 30 * 50 + (dis - 30)*40;
+  }
+
+  if(dis <= 30)
+  {
+    amount = 50 * dis;
+  }
+  
+  printf("Amount = %.2f",amount);
   
   return 0;
 }
