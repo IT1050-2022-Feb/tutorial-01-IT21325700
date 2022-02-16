@@ -5,21 +5,20 @@
 #include <stdio.h>
 
 int main() 
-{ float dis,amount;
-  printf("Distance -> ");
-  scanf("%f",&dis);
+int num1,num2;
+  float average;
+  int sum;
 
-  if(dis > 30)
-  {
-    amount = 30 * 50 + (dis - 30)*40;
-  }
+  printf("Enter mark 1 : ");
+  scanf("%d",&num1);
 
-  if(dis <= 30)
-  {
-    amount = 50 * dis;
-  }
-  
-  printf("Amount = %.2f",amount);
+  printf("Enter mark 2 : ");
+  scanf("%d",&num2);
+
+  sum = num1 + num2;
+  average = sum/2.0;
+
+  printf("Average is %.2f",average)
   
   return 0;
 }
