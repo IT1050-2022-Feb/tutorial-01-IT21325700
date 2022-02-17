@@ -4,10 +4,10 @@
 
 #include <stdio.h>
 
-int main() 
+int main(){
 int num1,num2;
-  float average;
-  int sum;
+  float average,sum;
+  
 
   printf("Enter mark 1 : ");
   scanf("%d",&num1);
@@ -18,7 +18,7 @@ int num1,num2;
   sum = num1 + num2;
   average = sum/2.0;
 
-  printf("Average is %.2f",average)
+  printf("Average is %.2f",average);
   
   return 0;
 }
