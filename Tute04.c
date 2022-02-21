@@ -9,7 +9,9 @@ int minimum(int no1, no2);
 int maximum(int no1, int no2);
 int multiply(int no1, int no2);
 
-int main() {
+int main()
+{
+ {
    int no1, no2;
    printf("Enter a value for no 1 : ");
    scanf("%d", &no1);
@@ -21,7 +23,7 @@ int main() {
    return 0;
 }
 
-int minimum(int no1, int no2)
+int minimum (int no1, int no2);
 {
   if(no1 < no2)
   return no1;
@@ -46,4 +48,5 @@ int multiply( int no1,int no2)
   int mul;
 
    return mul = no1 * no2;
+}
 }
